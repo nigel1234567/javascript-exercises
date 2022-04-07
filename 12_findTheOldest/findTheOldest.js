@@ -1,5 +1,5 @@
 const findTheOldest = function(array) {
-    // Reduce array to return 1 output (oldest person)
+    // Reduce array to return 1 output (oldest person) by running a loop through entire array
    return array.reduce((oldest, currentPerson) => {
     // Get the age of the oldest person and current person and repeats throughout the array
     const oldestAge = getAge(oldest.yearOfBirth, oldest.yearOfDeath);
